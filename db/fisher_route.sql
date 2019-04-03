@@ -1,4 +1,4 @@
-# Database: fisher_log
+# Database: fisher_route
 
 DROP TABLE IF EXISTS `sys_zuul_route`;
 
@@ -16,9 +16,6 @@ CREATE TABLE `sys_zuul_route` (
                                 `del_flag` char(1) DEFAULT '0' COMMENT '删除标识（0-正常,1-删除）',
                                 PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 ROW_FORMAT=DYNAMIC COMMENT='动态路由配置表';
-
-LOCK TABLES `sys_zuul_route` WRITE;
-/*!40000 ALTER TABLE `sys_zuul_route` DISABLE KEYS */;
 
 INSERT INTO `sys_zuul_route` (`id`, `path`, `service_id`, `url`, `strip_prefix`, `retryable`, `enabled`, `sensitiveHeaders_list`, `create_time`, `update_time`, `del_flag`)
 VALUES

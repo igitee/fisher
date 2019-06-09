@@ -1,8 +1,12 @@
 # fisher
 基于Spring cloud Alibaba,Oauth2,基于VUE的后台权限管理框架,集成了基于MQ的可靠消息的分布式事务解决方案。
 - 感兴趣可以加QQ群：591363691
-
+- 目前项目已经部署到k8s集群上，暂时只部署了3个微服务，由于怕有人乱删除数据，所以只开放了查看功能。
+- 体验地址如下：http://39.98.217.217:8082 用户名:fisher 密码:fisher
 # About
+
+有关文档以及其他相关事宜可以以查看官网相关介绍
+>  传送门：[fisher官方网站](https://fisher-allen.github.io/fisher-docs/#/) 
 
 ## 技术栈
 此项目是 Spring cloud Oauth2 构建的后台管理系统，计划采用以下技术
@@ -75,6 +79,8 @@ fisher-gateway
 
 ![index](https://github.com/fanxinglong/fisher/blob/master/docs/admin.png)
 
+![index](https://github.com/fanxinglong/fisher/blob/master/docs/k8s.png)
+
 ![index](https://github.com/fanxinglong/fisher/blob/master/docs/skywalking.png)
 
 ![index](https://github.com/fanxinglong/fisher/blob/master/docs/skywalking1.png)
@@ -91,3 +97,9 @@ fisher-gateway
 - [x] 日志记录 -- 完成
 - [x] 代码生成 -- 完成
 
+# 捐赠
+
+如果觉得本项目对您有帮助，您的鼓励是作者持续更新的动力，谢谢！
+
+![zfb](https://github.com/fanxinglong/fisher/blob/master/docs/zfb.png) 
+![wx](https://github.com/fanxinglong/fisher/blob/master/docs/wx.png) 
